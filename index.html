@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="./Images/iconn.png"><!--Here we give Icon to our Tab-->
+    <title>Bruno's Fashion - Home</title>
+</head>
+
+<body>
+    
+    <!--We provide our Header a 'sticky-top' bootsrtap class for sticking my header on top when scrolling but only upto extra large screens and large screens-->
+    <header id="header" class="sticky-lg-top"></header>
+
+    <div class="c-cover d-grid justify-content-center align-items-center">
+        <!--we make this div grid to align logo in center of the screen with using of 2 grid classes-->
+        <img src="./Images/onlinelogomaker-062223-0135-1650-2000-transparent.png" class="img-fluid" alt="">
+        <!--we use image fluid class(img-fluid) to make our logo-image responsive in every screen wihtout losing its height and weight dimensions-->
+    </div>
+
+    
+    <div class="c-slider text-center py-4"> <!--c-slider is the bootstrap class not the CSS for the carousel -->
+        <h1>Featured Products</h1>
+
+        <div class="container">
+            
+            <!--Carousel for Extra Large Screen-->
+            <div id="X-LargeScreenCarousel" class="carousel slide carousel-dark  d-none d-sm-none d-md-none d-lg-none d-xl-block">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/71VlLBQ1ZpL._UY879_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Tagas
+                                        <br>
+                                        $49
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/51ytCLpj8vL._UL1500_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Sweatshirt
+                                        <br>
+                                        $55
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61Op6xNHhiL._UL1280_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Panther
+                                        <br>
+                                        $70
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61ZYd3AtPbL._UL1400_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Uptownie
+                                        <br>
+                                        $49
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61wB6BDoilL._UL1500_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Trousers
+                                        <br>
+                                        $80
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/71EIvMQ4KbL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Hoodie
+                                        <br>
+                                        $49
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/71w+tRy3BrL._UL1500_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Formal Shirt
+                                        <br>
+                                        $45
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81Bq7yzdQsL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Sweatshirt
+                                        <br>
+                                        $79
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>                                  
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81uTb5UwUgL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Denim Shirt
+                                        <br>
+                                        $59
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/513PI1ZQ-uL._UL1160_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Printed shirt
+                                        <br>
+                                        $45
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#X-LargeScreenCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#X-LargeScreenCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!--Carousel for Large Screens-->
+            <div id="LargeScreenCarousel" class="carousel slide carousel-dark  d-none d-sm-none d-md-none d-lg-block d-xl-none">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61B64+FLzML._UL1440_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Kurta Set
+                                        <br>
+                                        $50
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>    
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/51ytCLpj8vL._UL1500_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Sweatshirt
+                                        <br>
+                                        $55
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61Op6xNHhiL._UL1280_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Panther
+                                        <br>
+                                        $70
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>    
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61ZYd3AtPbL._UL1400_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Uptownie
+                                        <br>
+                                        $49
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61wB6BDoilL._UL1500_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Trousers
+                                        <br>
+                                        $80
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>     
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61JT+70OBKL._UL1440_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Ninos
+                                        <br>
+                                        $60
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>      
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81atZ6-e6UL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        AJ Dezines
+                                        <br>
+                                        $69
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/71EIvMQ4KbL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Hoodie
+                                        <br>
+                                        $49
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/71w+tRy3BrL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Formal Shirt
+                                        <br>
+                                        $45
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81Bq7yzdQsL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Sweatshirt
+                                        <br>
+                                        $79
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>                                  
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>    
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81uTb5UwUgL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Denim Shirt
+                                        <br>
+                                        $59
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/513PI1ZQ-uL._UL1160_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Printed shirt
+                                        <br>
+                                        $45
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#LargeScreenCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#LargeScreenCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!--Carousel for Medium Screens-->
+            <div id="MediumScreenCarousel" class="carousel slide carousel-dark  d-none d-sm-none d-md-block d-lg-none d-xl-none">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61B64+FLzML._UL1440_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Kurta Set
+                                        <br>
+                                        $50
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>    
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/51ytCLpj8vL._UL1500_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Sweatshirt
+                                        <br>
+                                        $55
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61Op6xNHhiL._UL1280_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Panther
+                                        <br>
+                                        $70
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>    
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61ZYd3AtPbL._UL1400_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Uptownie
+                                        <br>
+                                        $49
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61wB6BDoilL._UL1500_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Trousers
+                                        <br>
+                                        $80
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>     
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61JT+70OBKL._UL1440_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Ninos
+                                        <br>
+                                        $60
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>      
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81atZ6-e6UL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        AJ Dezines
+                                        <br>
+                                        $69
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/71EIvMQ4KbL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Hoodie
+                                        <br>
+                                        $49
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/71w+tRy3BrL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Formal Shirt
+                                        <br>
+                                        $45
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81Bq7yzdQsL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Sweatshirt
+                                        <br>
+                                        $79
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>                                  <a href="cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>    
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81uTb5UwUgL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Denim Shirt
+                                        <br>
+                                        $59
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/513PI1ZQ-uL._UL1160_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Printed shirt
+                                        <br>
+                                        $45
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#MediumScreenCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#MediumScreenCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!--Carousel for Small Screens-->
+            <div id="SmallScreenCarousel" class="carousel slide carousel-dark  d-none d-sm-block d-md-none d-lg-none d-xl-none">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61B64+FLzML._UL1440_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Kurta Set
+                                        <br>
+                                        $50
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>    
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/51ytCLpj8vL._UL1500_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Sweatshirt
+                                        <br>
+                                        $55
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61Op6xNHhiL._UL1280_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Panther
+                                        <br>
+                                        $70
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>    
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61ZYd3AtPbL._UL1400_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Uptownie
+                                        <br>
+                                        $49
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61wB6BDoilL._UL1500_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Trousers
+                                        <br>
+                                        $80
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>     
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61JT+70OBKL._UL1440_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Ninos
+                                        <br>
+                                        $60
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>      
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81atZ6-e6UL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        AJ Dezines
+                                        <br>
+                                        $69
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/71EIvMQ4KbL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Hoodie
+                                        <br>
+                                        $49
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/71w+tRy3BrL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Formal Shirt
+                                        <br>
+                                        $45
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81Bq7yzdQsL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Sweatshirt
+                                        <br>
+                                        $79
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>                                  
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81uTb5UwUgL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Denim Shirt
+                                        <br>
+                                        $59
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/513PI1ZQ-uL._UL1160_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Printed shirt
+                                        <br>
+                                        $45
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#SmallScreenCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#SmallScreenCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            
+            <!--Carosuel for Extra Small Screens-->
+            <div id="X-SmallScreenCarousel" class="carousel slide carousel-dark  d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61JT+70OBKL._UL1440_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Ninos
+                                        <br>
+                                        $60
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>      
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/51ytCLpj8vL._UL1500_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Sweatshirt
+                                        <br>
+                                        $55
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61B64+FLzML._UL1440_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Kurta Set
+                                        <br>
+                                        $50
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61Op6xNHhiL._UL1280_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Panther
+                                        <br>
+                                        $70
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>    
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61ZYd3AtPbL._UL1400_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Uptownie
+                                        <br>
+                                        $49
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/61wB6BDoilL._UL1500_.jpg" class="c-img-height" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Trousers
+                                        <br>
+                                        $80
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>     
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81atZ6-e6UL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        AJ Dezines
+                                        <br>
+                                        $69
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/71EIvMQ4KbL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Hoodie
+                                        <br>
+                                        $49
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/71w+tRy3BrL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Formal Shirt
+                                        <br>
+                                        $45
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/81uTb5UwUgL._UL1500_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Denim Shirt
+                                        <br>
+                                        $59
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>   
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="c-cards-wrapper">
+                            <div class="card shadow c-card">
+                                <img src="https://m.media-amazon.com/images/I/513PI1ZQ-uL._UL1160_.jpg" class="c-img-height"
+                                    alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">
+                                        Printed shirt
+                                        <br>
+                                        $45
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <a href="./Link_Pages/cart.html" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#X-SmallScreenCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#X-SmallScreenCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <footer id="footer"></footer>
+</body>
+
+</html>

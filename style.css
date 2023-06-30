@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+/*-------------------------------------This one is use to give shadow to all h1 elements in all pages -----*/
+h1{
+    text-shadow: 2px 2px 2px grey ;
+}
+
+/*------------------------------------To provide Header(NavBar-1) & Footer a background color---------------*/
+.c-bg-color{
+    background-color: #212121;
+}
+
+/*------------------------------------Taking control on all Card image Height-----------------------------*/
+.c-img-height{
+    height: 19em;
+}
+
+/*--------------------------------------Background Image Styling in index.html----------------------------*/
+.c-cover{
+    background-image: url("./Images/BG-Img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 37em;
+    background-attachment: fixed;
+    
+}
+
+/*---------------------------------------Giving text color to my nav-pills----------------------------- */
+.nav-pills .nav-link{
+    color: #212121;
+  }
+
+
+/*------------------------------------Footer CSS-------------------------------------------------------*/ 
+.c-footer-link a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+.c-footer-link:hover{
+    transform: scale(1.15);
+    font-weight: bold;
+}
+
+/*-----------------------------------------For carousel in "index.html" page-----------------------------*/
+
+.c-cards-wrapper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.c-card{
+    margin: 0.5em;
+    /*width: calc(100%/3);*/
+}
+
+.carousel-control-prev,.carousel-control-next {
+  background-color: rgb(233, 190, 18);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 50%;
+}
+
